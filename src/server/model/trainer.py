@@ -12,6 +12,9 @@ class Trainer:
         self._conditional_dict = None
         self._ready_for_training = True
 
+    # def reset(self):
+    #     self.__init__()
+
     @staticmethod
     def _ensure_linked_args_provided(frequency_dict, model_schema):
         if (frequency_dict is None) != (model_schema is None):
